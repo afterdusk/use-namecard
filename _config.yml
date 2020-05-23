@@ -1,0 +1,87 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# If you need help with YAML syntax, here are some quick references for you: 
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+##### SITE SETTINGS #####
+# The following fields are necessary - replace the values accordingly
+title: Namecard
+description: >-
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: "/use-namecard" # the subpath of your site, e.g. /blog
+url: "https://afterdusk.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+
+##### THEME SETTINGS #####
+# [optional] Google analytics ID, e.g. UA-XXXXXXXXX-X
+google_analytics:
+
+# [optional] Hex code or CSS color code (defaults to a shade of blue)
+accent_color: # light mode accent color
+accent_color_dark: # dark mode accent color
+
+# No action needed here, this tells Jekyll to look in the '_sections' directory
+collections:
+  - sections
+
+# [optional] Social media/contact. Links will appear under the introduction 
+#            section with the appropriate logo
+github_url: https://example.com
+stack_overflow_url: https://example.com
+linkedin_url: https://example.com
+facebook_url: https://example.com
+twitter_url: https://example.com
+youtube_url: # you can omit links
+
+email: your-email@example.com
+
+##### INTRO CONFIGURATION #####
+# The following fields configure the introduction section. Markdown is supported
+intro_title: |
+  **Hi, I'm Namecard**
+  {: .accent-color .jumbo-font}
+
+intro_content: |
+  ### I'm a Jekyll theme for single page CVs. Normally you'd put some description of yourself here, or flex your skills like underwater basket weaving.
+  {: .secondary-font}
+
+##### BUILD SETTINGS #####
+# For gem-based installations, uncomment the following line and comment out 'remote_theme'
+# theme: namecard
+remote_theme: afterdusk/namecard
+plugins:
+
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
