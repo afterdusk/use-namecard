@@ -8,7 +8,7 @@ title: >
 Nov 2019
 ### **[Jekyll Theme](https://github.com/afterdusk/namecard)**
 {: .accent-color}
-[![example](/assets/example.png)](https://github.com/afterdusk/namecard)
+[![example]({{ '/assets/example.png' | relative_url}})](https://github.com/afterdusk/namecard)
 
 *HTML, CSS, Jekyll*
 {: .secondary-font}
