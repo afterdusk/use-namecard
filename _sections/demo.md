@@ -44,4 +44,4 @@ Append these [Kramdown ALDs](https://kramdown.gettalong.org/syntax.html#attribut
 {% raw  %}\{: .accent-color .jumbo-font \}{% endraw  %}
 {: .accent-color .jumbo-font }
 
-Lastly, there's also a light and dark theme that is selected based on the visitor's browser preferences. I might add more fine-grained control later (always dark mode, never dark mode) but that's not supported at this time.
+Lastly, there's also a light and dark theme that is selected based on the visitor's system preferences. You can also set the dark theme to `always` on or `never` on.

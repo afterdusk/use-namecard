@@ -12,10 +12,10 @@ source "https://rubygems.org"
 # If using remote_theme in _config.yml, comment out the gem above. The theme
 # will be fetched from the GitHub repo instead of from rubygems
 
-# gem "jekyll", "~> 3.8.5"
+# gem "jekyll", "~> 3.8"
 # If you want to use GitHub Pages, comment out the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
-gem "github-pages", "~> 204", group: :jekyll_plugins
+gem "github-pages", "~> 214", group: :jekyll_plugins
 
 # If you have any plugins, put them here!
 # group :jekyll_plugins do

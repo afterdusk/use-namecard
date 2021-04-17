@@ -22,7 +22,7 @@
 # The following fields are necessary - replace the values accordingly
 title: Namecard
 description: >-
-  Write an awesome description for your new site here. You can edit this
+  Write a description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 baseurl: "/use-namecard" # the subpath of your site, e.g. /blog
@@ -35,6 +35,9 @@ google_analytics:
 # [optional] Hex code or CSS color code (defaults to a shade of blue)
 accent_color: # light mode accent color
 accent_color_dark: # dark mode accent color
+
+# [optional] Dark mode setting (defaults to system)
+dark_mode: # system | always | never
 
 # No action needed here, this tells Jekyll to look in the '_sections' directory
 collections:
@@ -64,7 +67,7 @@ intro_content: |
 ##### BUILD SETTINGS #####
 # For gem-based installations, uncomment the following line and comment out 'remote_theme'
 # theme: namecard
-remote_theme: afterdusk/namecard@v0.1.0
+remote_theme: afterdusk/namecard@v0.1.3
 plugins:
 
 # The following items will not be processed, by default.
