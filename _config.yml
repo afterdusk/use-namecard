@@ -64,7 +64,7 @@ intro_content: |
 ##### BUILD SETTINGS #####
 # For gem-based installations, uncomment the following line and comment out 'remote_theme'
 # theme: namecard
-remote_theme: afterdusk/namecard
+remote_theme: afterdusk/namecard@v0.1.0
 plugins:
 
 # The following items will not be processed, by default.
